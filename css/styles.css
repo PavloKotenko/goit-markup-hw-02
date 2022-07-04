@@ -1,23 +1,103 @@
+:root {
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --main-background-color: #E5E5E5;
+    --main-brand-color: #2196F3;
+}
+/* main*/
 body {
-    background-color: #E5E5E5;
+    background-color: var(--main-background-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+/* header */
+.logo {
+color: #000000;
+}
+.style {
+    text-decoration: none;
+}
+.logo-words {
+    color: var(--main-brand-color);
+}
+.link {
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.link:active {
+    color: var(--main-brand-color);
+}
+.contact {
+    color: var(--second-text-color);
     font-family: 'Roboto', sans-serif;
 }
+.list {
+list-style: none;
+}
+
+/* main */
 button {
-    color: #212121;
+    color: var(--main-text-color);
     background-color: #F5F4FA;
+    font-family: 'Roboto', sans-serif;
 }
 button:hover,
 button:focus {
-    background-color: #2196F3;
+    background-color: var(--main-brand-color);
     color: #FFFFFF;
+    cursor: pointer;
 }
 .project {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-style: normal;
 
 }
 .project-name {
-    color: #212121;
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
-.type {
-    color: #757575;
+
+.project-type {
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
     
+}
+
+
+/* footer */
+.footer-logo {
+    color: #FFFFFF;
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.post-address,
+address a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+address a {
+    color: rgba(255, 255, 255, 0.6);
 }
