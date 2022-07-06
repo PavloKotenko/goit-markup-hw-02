@@ -3,6 +3,7 @@
     --second-text-color: #757575;
     --main-background-color: #E5E5E5;
     --main-brand-color: #2196F3;
+    --second-background-color: #2F303A;
 }
 /* main*/
 body {
@@ -16,6 +17,11 @@ body {
 /* header */
 .logo {
 color: #000000;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 .style {
     text-decoration: none;
@@ -31,9 +37,16 @@ color: #000000;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.link:hover,
+.link:focus,
 .link:active {
     color: var(--main-brand-color);
 }
+a.current {
+    color: var(--main-brand-color);
+}
+
+
 .contact {
     color: var(--second-text-color);
     font-family: 'Roboto', sans-serif;
@@ -86,12 +99,17 @@ button:focus {
 }
 /* main index */
 .hero {
+    color: #ffffff;
     font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+}
+.box {
+    background-color: var(--second-background-color);
+
 }
 .feature {
     font-weight: 700;
@@ -142,6 +160,9 @@ address a {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-address a {
+.foot-contact {
     color: rgba(255, 255, 255, 0.6);
+}
+footer {
+    background-color: var(--second-background-color);
 }
