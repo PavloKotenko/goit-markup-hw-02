@@ -1,7 +1,7 @@
 :root {
     --main-text-color: #212121;
     --second-text-color: #757575;
-    --main-background-color: #E5E5E5;
+    /* --main-background-color: #E5E5E5; */
     --main-brand-color: #2196F3;
     --second-background-color: #2F303A;
 }
@@ -33,7 +33,6 @@ letter-spacing: 0.03em;
 }
 .link {
     color: var(--main-text-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -51,7 +50,6 @@ a.current {
 
 .contact {
     color: var(--second-text-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 font-size: 14px;
 line-height: 1.18;
@@ -71,7 +69,6 @@ main {
 button {
     color: var(--main-text-color);
     background-color: #F5F4FA;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -85,7 +82,6 @@ button:focus {
     cursor: pointer;
 }
 .project {
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 
 }
@@ -118,6 +114,7 @@ button:focus {
 }
 .box {
     background-color: var(--second-background-color);
+    
 }
 .btn {
     background-color: var(--main-brand-color);
@@ -129,6 +126,7 @@ button:focus {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    margin: 0 auto;
     
 }
 .btn:hover {
@@ -174,21 +172,24 @@ text-transform: uppercase;
     text-decoration: none;
 }
 .post-address,
-address a {
+address a,
+.foot-contact {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
 }
-.foot-contact {
+footer .foot-contact {
     color: rgba(255, 255, 255, 0.6);
+
 }
 footer {
     background-color: var(--second-background-color);
 }
 .post-address,
 .foot-contact {
-    cursor: pointer;
+    cursor: pointer
 }
